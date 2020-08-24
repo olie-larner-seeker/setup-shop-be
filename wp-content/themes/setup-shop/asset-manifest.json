@@ -1,0 +1,20 @@
+{
+  "files": {
+    "static/js/0.chunk.js": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/js/0.chunk.js",
+    "static/js/0.chunk.js.map": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/js/0.chunk.js.map",
+    "main.css": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/css/main.chunk.css",
+    "main.js": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/js/main.chunk.js",
+    "main.css.map": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/css/main.chunk.css.map",
+    "main.js.map": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/js/main.chunk.js.map",
+    "runtime-main.js": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/js/bundle.js",
+    "runtime-main.js.map": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/js/bundle.js.map",
+    "index.php": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/index.php",
+    "static/media/logo.svg": "/Setup_Shop/setup-shop-be/wp-content/themes/setup-shop/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/js/0.chunk.js",
+    "static/css/main.chunk.css",
+    "static/js/main.chunk.js"
+  ]
+}

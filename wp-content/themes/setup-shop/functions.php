@@ -36,6 +36,31 @@ if( function_exists('acf_add_options_page') ) {
 
 add_theme_support( 'post-thumbnails' );
 
+// Register Custom Menu
+
+function register_header_menu() {
+    register_nav_menu('header-menu',__( 'Header Menu' ));
+  }
+  add_action( 'init', 'register_header_menu' );
+
+  add_filter('wp_nav_menu_objects', 'my_wp_nav_menu_objects', 10, 2);
+
+function my_wp_nav_menu_objects( $items, $args ) {
+	
+	// loop
+	foreach( $items as &$item ) {
+		
+		// vars
+		$slug = get_field('slug', $item);
+		
+	}
+	
+	
+	// return
+	return $items;
+	
+}
+
 // Register blocks
 
 if (function_exists('acf_register_block_type')){
